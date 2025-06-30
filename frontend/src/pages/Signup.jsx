@@ -31,7 +31,7 @@ const Signup = () => {
       return handleError("All fields are required");
     }
     try {
-      const url = "http://localhost:8000/auth/api/signup";
+      const url = "https://auth-mern-app-api-liard.vercel.app/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
